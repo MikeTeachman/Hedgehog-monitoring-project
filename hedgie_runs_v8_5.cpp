@@ -115,7 +115,7 @@ enum
 #define NUM_INTERVALS_TO_RESET 2
 #define WLAN_SSID       "... your WiFi SSID..."
 #define WLAN_PASS       "... your WiFi password..."
-#define AIO_KEY  "5d2ff1a76becfc1da40133a10f88bed5b57361e2"
+#define AIO_KEY  "==AIO Key =="
 
 WHEEL_STATE_t detectMirror(DateTime& dateNow);
 WHEEL_STATE_t detectWhite(void);
@@ -211,13 +211,13 @@ Adafruit_IO_Feed hedgieUptime = aio.getFeed("hhu");
 
 // ThingSpeak connection information
 #define WEBSITE      "api.thingspeak.com"
-char thingtweetAPIKey[] = "OM6WZLHI8H23TQE9";  // ThingSpeak settings
+char thingtweetAPIKey[] = "=======";  // ThingSpeak settings
 char thingspeeakServer[] = WEBSITE;    // name address for Google (using DNS)
 
 // Sparkfun Data connection information
 char sparkfunServer[] = "data.sparkfun.com";    // name address for data.sparkFun (using DNS)
-const String publicKey = "WGGL6Kyrb5iW3oWyDoMj";
-const String privateKey = "XRR9EYgy87UgVqgjyq9P";
+const String publicKey = "============";
+const String privateKey = "==============";
 
 // NTP 
 unsigned int localPort = 8888; //Local port to listen for UDP Packets
